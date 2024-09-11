@@ -1,0 +1,318 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+header h2{
+    font-size:1.5rem;
+}
+
+header{
+    background-color: rgb(213, 224, 221);
+    padding: 2px;
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+    margin-right:10px;
+    font-size:1.3rem;
+}
+
+.container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+label{
+    font-size:1.4rem;
+}
+
+input{
+    font-size:1.3rem;
+    border-color:rgb(136, 39, 4);
+    padding: 13px 13px;
+    border-radius: 7px;
+    margin-top:12px;
+}
+.one{
+    flex:1;
+}
+
+.two{
+    flex:1;
+    justify-self: center;
+}
+
+select{
+    border:none;
+    font-size:1.3rem;
+    background-color: rgb(213, 224, 221);
+    margin-right:5px;
+
+}
+
+
+.three{
+    flex:1;
+    justify-self: end;
+    text-align: end;
+}
+
+nav{
+    margin-top: 23px;
+}
+/* Middle Section CSS */
+
+.form{
+    border: 1px solid rgba(109, 102, 102, 0.3);
+    border-width:50%;
+    border-radius:9px;
+    padding:20px;
+    margin:100px 100px;
+    box-sizing:border-box;
+}
+
+.reg1{
+    display: flex;
+}
+
+.reg1 label{
+    font-size:1.4rem;
+}
+
+.reg1 input{
+    display: block;
+    margin-top:12px;
+}
+
+.element{
+    flex:1;
+    margin-left:33px;    
+}
+
+.common{
+    display: flex;
+}
+
+
+.element1{
+    flex:1;
+    margin-left:px;
+}
+
+.element1 input{
+    width:400px;
+    margin-right:10px;
+}
+
+.element input{
+    width:400px;
+    padding: 13px 13px;
+    border-radius: 7px;
+}
+
+.same{
+    margin-right:75px;
+}
+
+.same input{
+    width: 180px;
+    padding: 13px 13px;
+    border-radius: 7px;
+}
+
+.second{
+    margin-top:25px;
+    display: flex;
+}
+
+.second label{
+    font-size:1.4rem;
+}
+
+.second input{
+    display:block;
+    padding: 13px 13px;
+    border-radius: 7px;
+    margin-top:12px;
+}
+
+.s1{
+    flex:2;
+}
+
+.s1 input{
+    width:755px;
+
+}
+.s2{
+    flex:1;
+    margin-right:43px;
+}
+
+.s2 input{
+    width:400px;
+}
+
+.s3{
+    flex:1;
+}
+
+.s3 input{
+    width:400px;
+}
+
+.third{
+    margin-top:25px;
+    display: flex;
+}
+
+.third label{
+    font-size:1.4rem;
+}
+
+.third input{
+    display:block;
+    padding: 13px 13px;
+    border-radius: 7px;
+    margin-top:12px;
+}
+
+.t1{
+    flex:2;
+}
+
+.t1 input{
+    width:755px;
+
+}
+.t2{
+    flex:1;
+    margin-right:43px;
+}
+
+.t2 input{
+    width:400px;
+}
+
+.t3{
+    flex:1;
+}
+
+.t3 input{
+    width:400px;
+}
+
+.fourth{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.fourth input{
+    display: block;
+}
+
+.f1{
+    flex:1;
+}
+.f1 input{
+    width: 500px;
+}
+
+.f2{
+    margin-left: 90px;
+    flex:1;
+}
+.f2 input{
+    width: 500px;
+}
+
+.f3{
+    margin-left:70px;
+    flex:1;
+
+}
+.f3 input{
+    width: 500px;
+}
+
+table{
+    margin-top:50px;
+    margin-bottom:20px;
+    margin-left: auto;
+}
+
+th{
+   border-bottom: none;
+   font-size: 1.3rem;
+}
+
+tbody{
+    padding: 0px 3px;
+}
+
+thead{
+    background-color: rgb(228, 56, 85);
+    color:white;
+    margin:6px 6px;
+}
+
+td{
+    border-right:1px solid black;
+}
+
+.btn{
+    text-align: center;
+    font-size:1.4rem;
+    padding:6px;
+    width:3em;
+}
+
+button{
+    padding-top:15px;
+    background-color: green;
+    color:white;
+    border-radius:8px;
+}
+.fifth input{
+    width:160px;
+}
+
+.sixth{
+    display: block;
+    padding:15px 15px;
+
+}
+
+.sixth label{
+    font-size:1.4rem;
+    margin-bottom:10px;
+}
+
+.sixth input{
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:16px;
+}
+
+.six1{
+    margin-bottom: 25px;
+}
+/* Middle Section CSS */
+
+/* Footer Section CSS */
+footer{
+    background-color:rgb(228, 56, 85);
+    color:white;
+    padding:6px;
+    margin-top:100px;
+    text-align:center;
+    font-size:1.3em;
+}
+/* Footer Section CSS */
+
+
