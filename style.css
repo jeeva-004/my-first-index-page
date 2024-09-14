@@ -382,15 +382,39 @@ button{
 }
 
 .ten{
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
+    margin-bottom: 60px;
 }
-.t1 {
-    display: flex;
+
+.ten button{
+    background-color:rgb(228, 56, 85) ;
+}
+.n1 {
+    margin-top:35px;
+    margin-left: 15px;
+    flex:1;
     width:500px;
 }
 
-.t1 div{
+.ten button{
+    padding: 20px 10px;
+}
+
+.n2 button{
+    margin:0px 5px;
+    padding:0px 15px;
+}
+
+.n2 input{
+    margin-right:15px;
+    padding:25px 25px;
+    width:600px;
+}
+.n2 {
+    display: flex;
+    justify-content: end;
+    margin-right: 22px;
     flex:1;
 }
 
