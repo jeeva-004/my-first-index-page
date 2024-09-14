@@ -21,6 +21,7 @@ header a{
     color:white;
 }
 
+
 .container{
     display: flex;
     width:100%;
@@ -33,7 +34,7 @@ label{
 
 input{
     font-size:1.3rem;
-    border-color:rgb(136, 39, 4);
+    border-color:black;
     padding: 13px 13px;
     border-radius: 7px;
     margin-top:12px;
@@ -69,7 +70,7 @@ nav{
 /* Middle Section CSS */
 
 .form{
-    border: 1px solid rgba(109, 102, 102, 0.3);
+    border: 7px solid rgba(109, 102, 102, 0.3);
     border-width:50%;
     border-radius:9px;
     padding:20px;
@@ -315,6 +316,27 @@ button{
     border:none;
     border-collapse: collapse;
 }
+
+.seven label, input{
+    margin-top: 35px;
+}
+
+.seven select{
+    width: 527px;
+    margin-top: 20px;
+    padding: 14px 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border:1px solid black;
+}
+
+.fifth{
+    width:0px 5px;
+    box-sizing: border-box;
+}
+
+
 .sn1{
     flex:1;
     margin-left:15px;
@@ -330,6 +352,48 @@ button{
 .seven input{
     width:500px;
 }
+
+.eigth{
+    margin-left: 20px;
+    display: flex;
+}
+
+.eigth div{
+    flex:1;
+}
+
+.eigth input{
+    margin-top: 20px;
+    width:525px;
+    display: block ;
+}
+
+.ninth{
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+    margin-right:23px;
+}
+
+.ninth button{
+    width: 150px;
+    padding: 10px 10px;
+    font-size: 1.4rem;
+}
+
+.ten{
+    margin-top: 50px;
+    display: flex;
+}
+.t1 {
+    display: flex;
+    width:500px;
+}
+
+.t1 div{
+    flex:1;
+}
+
 /* Middle Section CSS */
 
 /* Footer Section CSS */

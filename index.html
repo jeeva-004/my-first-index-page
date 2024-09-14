@@ -37,6 +37,7 @@
             </nav>
         </div>
     </header>
+    <div class="border">
     <div class="form">
         <h3 style="font-size:1.3rem">Sales Order</h3>
         <div class="reg1">
@@ -120,7 +121,7 @@
 
         <div class="fifth">
             <div>
-                <table cellspacing="7" cellpadding="7">
+                <table cellspacing="5" cellpadding="5">
                     <thead>
                     <tr>
                         <div  class="tab">
@@ -175,8 +176,13 @@
             </tr>
 
             <tr>
-                <td><label for="tax">TAX 18%</label></td>
+                <td><label for="tax">TAX </label></td>
                <td><input type="number" name="tax" id="tax" placeholder="0.00"></td>
+            </tr>
+
+            <tr>
+                <td><label for="gst">GST 18%</label></td>
+                <td><input type="number" name="gst" id="gst" placeholder="0.00"></td>
             </tr>
             
             <tr>
@@ -191,12 +197,12 @@
     
 
             <tr>            
-                <td><label for="odno">Your Order:</label></td>
+                <td><label for="odno">Your Order No:</label></td>
                 <td><input type="number" name="your order no" placeholder="0.00" id="odno"></td>
             </tr>
 
             <tr>
-                <td><label for="dispatched">Despatched</label></td>
+                <td><label for="dispatched">Despatched To:</label></td>
                 <td><input type="number" id="dispatched" placeholder="0.00" name="despatched"></td>
             </tr>
             </table>
@@ -258,9 +264,44 @@
             </table>
             </div> 
        </div>
+       
+       <div class="eigth">
+        <div>
+            <label for="through">Sent through</label>
+            <input type="text" name="through" id="through">
+        </div>
+
+        <div>
+            <label for="lr">LR/RR No</label>
+            <input type="number" name="lr" id="lr">
+        </div>
+
+        <div>
+            <label for="Remarks">Remarks</label>
+            <input type="text" name="remares" id="Remarks" >
+        </div>
+       </div>
+
+       <div class="ninth">
+            <button>Save Bill</button>
+       </div>
+
+       <div class="ten">
+        <div class="t1">
+            <button>Clear All</button>
+            <button>Customer Alt+M</button>
+            <button>Item Alt+S</button>
+        </div>
+            <input type="text" name="" id="">
+            <button>View A4</button>
+            <button>View A5</button>
+        <div class="t2">
+
+        </div>
+       </div>
     
     </div>
-
+</div>
 
       
     <footer>
